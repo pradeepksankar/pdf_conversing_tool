@@ -13,9 +13,9 @@ This tool lets upload a PDF document and converse with it. Developed AI conversa
 
    pip install -r requirements.txt
    
-4. Create OpenAI API Key and add it to your .env file:
+4. Create OpenAI API Key and add it to your .env file like below line:
    [openai](https://platform.openai.com/)
-   
+   OPENAI_API_KEY = "your_api_key" 
 5. Open application in browser
 
    python -m streamlit run pdf_converse.py
