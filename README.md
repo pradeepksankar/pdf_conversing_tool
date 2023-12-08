@@ -19,4 +19,3 @@ This tool lets upload a PDF document and converse with it. Developed AI conversa
 5. Open application in browser
 
    python -m streamlit run pdf_converse.py
-   
