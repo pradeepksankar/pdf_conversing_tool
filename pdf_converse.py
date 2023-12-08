@@ -17,7 +17,7 @@ def process_text(text):
     text_splitter = CharacterTextSplitter(
         separator="\n",
         chunk_size=500,
-        chunk_overlap=100,
+        chunk_overlap=200,
         length_function=len
     )
     blocks = text_splitter.split_text(text)
